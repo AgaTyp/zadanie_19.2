@@ -29,3 +29,8 @@ function comparePass() {
     document.getElementById("info2").style.color = "red";
     document.getElementById("info2").innerHTML = info;
 }
+
+function validatePass() {
+	passValidation();
+	comparePass();
+}
